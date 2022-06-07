@@ -67,14 +67,9 @@ body {
 .form__input--number {
   color: hsl(0deg, 0%, 0%);
   padding-left: 0.8rem;
-  -moz-appearance: textfield;
 }
 .form__input--number:focus {
   outline: 0.2rem solid hsl(12deg, 93%, 12%);
-}
-.form__input--number::-webkit-outer-spin-button, .form__input--number::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
 }
 
 .btn-wrapper {
