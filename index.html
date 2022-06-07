@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/css/main.css">
+    <script src="src/js/app.js" defer></script>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,900&display=swap" rel="stylesheet">
+    <title>Calculadora de INSS</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Calcule seus descontos do INSS</h1>
+
+        <form class="form">
+            <label for="salario">Informe o seu salário base (bruto):</label>
+            <input type="text" name="salario" id="salario" class="form__input form__input--number"
+                placeholder="R$" inputmode="numeric">
+            <div class="btn-wrapper">
+                <input class="form__input form__input--submit" type="submit" value="Calcular">
+                <input type="button" class="form__input form__input--clear" value="Limpar">
+            </div>
+            <p class="res"></p>
+        </form>
+
+    </div>
+</body>
+
+</html>

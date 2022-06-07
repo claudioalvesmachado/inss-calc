@@ -1,0 +1,20 @@
+@keyframes error {
+    0% {
+        transform: translateX(-1%);
+    }
+
+    40% {
+        transform: translateX(1%);
+    }
+
+    75% {
+        transform: translateX(-1%);
+    }
+}
+
+.error-animation {
+    animation-name: error;
+    animation-duration: .5s;
+    background-color: $error-color;
+    box-shadow: 0 0 64rem $error-shadow;
+}
