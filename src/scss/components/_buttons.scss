@@ -29,15 +29,6 @@
             &:focus {
                 outline: .2rem solid $primary-color;
             }
-
-            // ESCONDE AS 'SETINHAS' DO INPUT NUMBER
-            -moz-appearance: textfield;
-
-            &::-webkit-outer-spin-button,
-            &::-webkit-inner-spin-button {
-                -webkit-appearance: none;
-                margin: 0;
-            }
         }
     }
 }
