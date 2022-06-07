@@ -72,6 +72,7 @@ const inssCalc = () => {
                 res.innerHTML = ""
             }, 500)
         }
+        salario.focus()
         animation()
     }
 
