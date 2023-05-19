@@ -17,10 +17,10 @@ const inssCalc = () => {
 
 
     // OS VALORES MÁXIMOS DE CADA FAIXA
-    const teto1 = 1212
-    const teto2 = 2427.35
-    const teto3 = 3641.03
-    const teto4 = 7087.22
+    const teto1 = 1320
+    const teto2 = 2571.29
+    const teto3 = 3856.94
+    const teto4 = 7507.49   
 
     // A PORCERNTAGEM DE DESCONDO DE CADA FAIXA
     const porCent1 = 0.075
